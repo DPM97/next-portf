@@ -56,15 +56,17 @@ const SideBar = ({ ...props }) => {
       <div className={`${styles.info}`}>
         <div>
           <Icon Type={RiMailSendLine} />
-          <p style={{ position: 'relative', top: '-5px', left: '5px' }}>dylanmaloyy@gmail.com</p>
+          <a style={{ position: 'relative', top: '-5px', left: '5px', fontSize: '12px' }} href="mailto:dylanmaloyy@gmail.com">
+            dylanmaloyy@gmail.com
+          </a>
         </div>
         <div>
           <Icon Type={RiPhoneLine} />
-          <p style={{ position: 'relative', top: '-5px', left: '5px' }}>+1 203-671-5389</p>
+          <a style={{ position: 'relative', top: '-5px', left: '5px', fontSize: '12px' }} href="tel:1-203-671-5389">+1 203-671-5389</a>
         </div>
       </div>
 
-    </div>
+    </div >
   )
 }
 
