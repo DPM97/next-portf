@@ -12,7 +12,7 @@ const SideBar = ({ ...props }) => {
     <div className={styles.container}>
       <div className={styles.centered}>
         <a
-          href="https://dylanmaloy.s3.amazonaws.com/resume.pdf"
+          href="https://storage.dollon.dev/view/public/UGlPWvXkLaTlgemdMOYCpfXccRdzWiiXokLiWLYRimYKUPUsqcSgFxnUArezfiYdXCejIHYGLdFiDjeTYhFwuBMOEEhlUTWsnLaq"
           target="_blank"
           rel="noreferrer"
           className={styles.resumeContainer}
