@@ -11,7 +11,12 @@ const SideBar = ({ ...props }) => {
   return (
     <div className={styles.container}>
       <div className={styles.centered}>
-        <a href="https://dylanmaloy.s3.amazonaws.com/resume.pdf" target="_blank" rel="noreferrer">
+        <a
+          href="https://dylanmaloy.s3.amazonaws.com/resume.pdf"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.resumeContainer}
+        >
           <div className={styles.resume}>
             <Icon style={{ fontSize: '100px' }} Type={IoNewspaperSharp} />
           </div>
@@ -42,12 +47,20 @@ const SideBar = ({ ...props }) => {
       <div className={`${styles.info}`}>
         <div>
           <Icon Type={MdOutlineSchool} />
-          <p style={{ position: 'relative', top: '-5px', left: '5px' }}>Tufts University</p>
+          <p style={{ position: 'relative', top: '-5px', left: '5px' }}>
+            <a style={{ fontSize: '12px' }} href="https://twitter.com/TuftsUniversity" target="_blank" rel="noreferrer">
+              @TuftsUniversity
+            </a>
+          </p>
         </div>
 
         <div>
           <Icon Type={RiSuitcaseLine} />
-          <p style={{ position: 'relative', top: '-5px', left: '5px' }}>Kleidi</p>
+          <p style={{ position: 'relative', top: '-5px', left: '5px' }}>
+            <a style={{ fontSize: '12px' }} href="https://twitter.com/Meta" target="_blank" rel="noreferrer">
+              @Meta
+            </a>
+          </p>
         </div>
       </div>
 

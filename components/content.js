@@ -17,7 +17,7 @@ const Projects = [
     img: Kleidi,
     href: "https://kleidi.io",
     git: "https://github.com/kleidi-bot",
-    dates: '2019-present'
+    dates: '2019-2022'
   },
   {
     name: "Ligo",
