@@ -33,7 +33,7 @@ const Projects = [
     img: TexTool,
     href: null,
     git: "https://github.com/DPM97/textool",
-    dates: '2021'
+    dates: '2021-2021'
   }
 ]
 
@@ -43,7 +43,7 @@ const WorkExperience = [
     description: "Software Development Engineer - IBM Cloud VPC.",
     img: Ibm,
     href: "https://www.ibm.com/cloud/vpc",
-    dates: 'Summer 2021'
+    dates: '2021-2021'
   }
 ]
 

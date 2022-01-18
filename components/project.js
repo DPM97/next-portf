@@ -14,18 +14,18 @@ const Project = ({ name, description, img, href, git, dates }) => {
     >
 
       <div className={styles.projectTitleDesc}>
-        <h3 style={{ marginTop: '10px', marginBottom: '-20px' }}>{name}</h3>
-        <h6 style={{ marginBottom: '-10px' }}>{dates}</h6>
+        <p className={styles.name} style={{ marginTop: '10px', marginBottom: '-20px' }}>{name}</p>
+        <p className={styles.dates} style={{ marginBottom: '-10px' }}>{dates}</p>
         <p style={{ fontSize: '14px' }}>{description}</p>
         <div style={{
           display: 'flex',
           flexDirection: 'row'
         }}>
           {git && (
-            <Btn Icon={FiGithub} href={git} />
+            <Btn Icon={FiGithub} href={git} AriaLabel={`${name}-git`} />
           )}
           {href && (
-            <Btn Icon={HiOutlineCursorClick} href={href} />
+            <Btn Icon={HiOutlineCursorClick} href={href} AriaLabel={`${name}-site`} />
           )}
         </div>
       </div>

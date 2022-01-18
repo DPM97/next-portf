@@ -1,6 +1,6 @@
-const Btn = ({ Icon, href }) => {
+const Btn = ({ Icon, href, name, AriaLabel = "" }) => {
   return (
-    <a href={href} target='_blank' rel="noreferrer">
+    <a href={href} name={name} target='_blank' rel="noreferrer" aria-label={AriaLabel}>
       <div style={{
         borderRadius: '0.5rem',
         width: '40px',

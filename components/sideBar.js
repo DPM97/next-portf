@@ -47,7 +47,7 @@ const SideBar = ({ ...props }) => {
       <div className={`${styles.info}`}>
         <div>
           <Icon Type={MdOutlineSchool} />
-          <p style={{ position: 'relative', top: '-5px', left: '5px' }}>
+          <p style={{ position: 'relative', top: '-10px', left: '5px' }}>
             <a style={{ fontSize: '12px' }} href="https://twitter.com/TuftsUniversity" target="_blank" rel="noreferrer">
               @TuftsUniversity
             </a>
@@ -56,7 +56,7 @@ const SideBar = ({ ...props }) => {
 
         <div>
           <Icon Type={RiSuitcaseLine} />
-          <p style={{ position: 'relative', top: '-5px', left: '5px' }}>
+          <p style={{ position: 'relative', top: '-10px', left: '5px' }}>
             <a style={{ fontSize: '12px' }} href="https://twitter.com/Meta" target="_blank" rel="noreferrer">
               @Meta
             </a>
@@ -69,13 +69,13 @@ const SideBar = ({ ...props }) => {
       <div className={`${styles.info}`}>
         <div>
           <Icon Type={RiMailSendLine} />
-          <a style={{ position: 'relative', top: '-5px', left: '5px', fontSize: '12px' }} href="mailto:dylanmaloyy@gmail.com">
+          <a style={{ position: 'relative', left: '5px', fontSize: '12px' }} href="mailto:dylanmaloyy@gmail.com">
             dylanmaloyy@gmail.com
           </a>
         </div>
         <div>
           <Icon Type={RiPhoneLine} />
-          <a style={{ position: 'relative', top: '-5px', left: '5px', fontSize: '12px' }} href="tel:1-203-671-5389">+1 203-671-5389</a>
+          <a style={{ position: 'relative', left: '5px', fontSize: '12px' }} href="tel:1-203-671-5389">+1 203-671-5389</a>
         </div>
       </div>
 
