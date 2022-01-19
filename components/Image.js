@@ -5,7 +5,7 @@ const cloudflareImageLoader = ({ src, width, quality }) => {
   if (!quality) {
     quality = 75
   }
-  return `https://images.dmaloy97.workers.dev?width=${width}&quality=${quality}&image=https://dollon.dev${src}`
+  return `https://images.dmaloy97.workers.dev?width=${width}&quality=${quality}&image=https://next-portf.pages.dev${src}`
 }
 
 
