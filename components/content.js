@@ -1,11 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import Project from "./project"
-import Kleidi from '../public/kleidi.avif'
-import Ligo from '../public/ligo.avif'
-import TexTool from '../public/texTool.avif'
+import Kleidi from '../public/kleidi.webp'
+import Ligo from '../public/ligo.webp'
+import TexTool from '../public/texTool.webp'
 
-import Ibm from '../public/ibm.avif'
+import Ibm from '../public/ibm.webp'
 import Pill from "./pill"
 
 import style from '../styles/Home.module.css'

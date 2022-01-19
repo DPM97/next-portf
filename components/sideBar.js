@@ -1,5 +1,5 @@
 import styles from '../styles/Home.module.css'
-import headshot from '../public/headshot.avif'
+import headshot from '../public/headshot.webp'
 import Image from '../components/Image'
 import { TiSocialLinkedinCircular, TiSocialGithubCircular, TiSocialTwitterCircular } from 'react-icons/ti'
 import { IoNewspaperSharp } from 'react-icons/io5'

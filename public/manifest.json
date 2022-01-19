@@ -10,25 +10,25 @@
   "description": "Dylan M's portfolio",
   "icons": [
     {
-      "src": "/android-chrome-512x512.avif",
+      "src": "/android-chrome-512x512.webp",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/android-chrome-192x192.avif",
+      "src": "/android-chrome-192x192.webp",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/favicon-32x32.avif",
+      "src": "/favicon-32x32.webp",
       "sizes": "32x32",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/favicon-16x16.avif",
+      "src": "/favicon-16x16.webp",
       "sizes": "16x16",
       "type": "image/png",
       "purpose": "any maskable"
