@@ -8,17 +8,6 @@ const cloudflareImageLoader = ({ src, width, quality }) => {
   return `https://images.dmaloy97.workers.dev?width=${width}&quality=${quality}&image=https://dollon.dev${src}`
 }
 
-const MyImage = (props) => {
-  return (
-    <Image
-      loader={cloudflareImageLoader}
-      src="me.png"
-      alt="Picture of the author"
-      width={500}
-      height={500}
-    />
-  )
-}
 
 const Image = (props) => {
   if (process.env.NODE_ENV === 'development') {
