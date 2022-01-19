@@ -51,7 +51,8 @@ module.exports = withPWA({
   headers,
   reactStrictMode: true,
   images: {
-    formats: ['image/avif', 'image/webp']
+    formats: ['image/avif', 'image/webp'],
+    loader: 'custom'
   },
   webpack: (config, { dev, isServer }) => {
     if (!dev && !isServer) {

@@ -1,5 +1,5 @@
 import styles from '../styles/Home.module.css'
-import Image from 'next/image'
+import Image from '../components/Image'
 import Btn from './button'
 import { FiGithub } from 'react-icons/fi'
 import { HiOutlineCursorClick } from 'react-icons/hi'

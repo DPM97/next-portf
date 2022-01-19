@@ -1,6 +1,6 @@
 import styles from '../styles/Home.module.css'
 import headshot from '../public/headshot.png'
-import Image from 'next/image'
+import Image from '../components/Image'
 import { TiSocialLinkedinCircular, TiSocialGithubCircular, TiSocialTwitterCircular } from 'react-icons/ti'
 import { IoNewspaperSharp } from 'react-icons/io5'
 import { RiSuitcaseLine, RiMailSendLine, RiPhoneLine } from 'react-icons/ri'
