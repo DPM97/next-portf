@@ -4,8 +4,9 @@ import Project from "./project"
 import Kleidi from '../public/kleidi.webp'
 import Ligo from '../public/ligo.webp'
 import TexTool from '../public/texTool.webp'
-
+import MyDrive from '../public/mydrive.webp'
 import Ibm from '../public/ibm.webp'
+
 import Pill from "./pill"
 
 import style from '../styles/Home.module.css'
@@ -26,6 +27,14 @@ const Projects = [
     href: "https://ligo.best",
     git: null,
     dates: '2020-2021'
+  },
+  {
+    name: "MyDrive",
+    description: "A file storage, reading, and sharing service written in Golang and Next.js. Created to store personal files on my raspberry pi with functionality similar to that of AWS S3 or Google Drive.",
+    img: MyDrive,
+    href: null,
+    git: "https://github.com/DPM97/mydrive",
+    dates: '2022'
   },
   {
     name: "TexTool",

@@ -2,7 +2,7 @@ import styles from '../styles/Home.module.css'
 
 const Pill = ({ name, color }) => {
   return (
-    < div
+    <div
       className={styles.pill}
       style={{
         margin: '5px',
@@ -10,12 +10,12 @@ const Pill = ({ name, color }) => {
         padding: '5px 10px',
         width: '100px',
         height: 'auto',
-        borderRadius: '3rem',
+        borderRadius: '0.2rem',
         backgroundColor: color
       }
       }>
       {name}
-    </div >
+    </div>
   )
 }
 
