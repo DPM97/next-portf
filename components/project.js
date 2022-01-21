@@ -7,6 +7,7 @@ import { HiOutlineCursorClick } from 'react-icons/hi'
 const Project = ({ name, description, img, href, git, dates }) => {
   return (
     <div
+      onClick={() => void 0}
       className={styles.project}
       style={{
         margin: '10px',
