@@ -164,6 +164,8 @@
 
 .project {
   max-width: 500px;
+  filter: drop-shadow(7px 7px 8px #404040);
+  margin: 10px;
 }
 
 .project:hover > .projectTitleDesc {

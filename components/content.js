@@ -34,7 +34,7 @@ const Projects = [
     img: MyDrive,
     href: null,
     git: "https://github.com/DPM97/mydrive",
-    dates: '2022'
+    dates: '2022-2022'
   },
   {
     name: "TexTool",
