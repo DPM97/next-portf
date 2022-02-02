@@ -3,11 +3,17 @@
   margin: 0;
 }
 
-.container {
-  background-color: rgb(240, 240, 240);
+.content {
+  background-image: url('../public/bg.svg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100vw auto;
 }
 
+
+
 .container {
+  background-color: rgb(240, 240, 240);
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -108,12 +114,12 @@
 }
 
 .widgets {
-  cursor: pointer;
   display: flex;
   flex-direction: row;
 }
 
 .widgets > .icon {
+  cursor: pointer;
   margin: 0px 5px;
   font-size: 30px;
 }
