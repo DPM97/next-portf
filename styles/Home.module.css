@@ -31,7 +31,7 @@
 }
 
 .sideBar > .container {
-  background-color: white;
+  background-image: linear-gradient(#FFD3D3, #F1F1F1);
 
   padding: 20px 30px;
   position: fixed;
