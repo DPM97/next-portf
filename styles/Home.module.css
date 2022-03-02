@@ -165,9 +165,18 @@
 }
 
 .project {
+  border-radius: 0.2rem;
+  border: 6px solid #dbb8e8;
   max-width: 500px;
   box-shadow: 7px 7px 8px #404040;
   margin: 10px;
+  background: #dbb8e8;
+}
+
+.project > .projectImage {
+  border-radius: 0.2rem;
+  overflow: hidden;
+  padding: 0;
 }
 
 .project:hover > .projectTitleDesc {

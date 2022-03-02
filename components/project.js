@@ -34,6 +34,7 @@ const Project = ({ name, description, img, href, git, dates }) => {
         </div>
 
         <div
+          className={styles.projectImage}
           style={{
             backgroundColor: 'white',
             height: '100%',
