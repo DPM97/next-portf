@@ -6,6 +6,7 @@ import Ligo from '../public/ligo.webp'
 import TexTool from '../public/texTool.webp'
 import MyDrive from '../public/mydrive.webp'
 import Ibm from '../public/ibm.webp'
+import Meta from '../public/meta.webp'
 
 import Pill from "./pill"
 
@@ -47,6 +48,13 @@ const Projects = [
 ]
 
 const WorkExperience = [
+  {
+    name: "Meta",
+    description: "Software Development Engineer.",
+    img: Meta,
+    href: "https://engineering.fb.com/category/core-data/",
+    dates: '2022-2022'
+  },
   {
     name: "IBM",
     description: "Software Development Engineer - IBM Cloud VPC.",
